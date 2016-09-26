@@ -5,7 +5,7 @@
         <div class="content-wrapper">
             <hgroup class="title">
                 <h1>Hi!!!</h1>
-                <h2>Это был мой первый опыт работы с TeamCity:)</h2>
+                <h2>Это был мой the second one опыт работы с TeamCity:)</h2>
             </hgroup>
         </div>
     </section>
