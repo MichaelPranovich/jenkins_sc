@@ -111,7 +111,7 @@ THE SOFTWARE.
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://repo.jenkins-ci.org/public/</url>
+      <url>http://localhost:8081/repository/Custom_Maven_for_Jenkins/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -124,7 +124,7 @@ THE SOFTWARE.
   <pluginRepositories>
     <pluginRepository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://repo.jenkins-ci.org/public/</url>
+      <url>http://localhost:8081/repository/Custom_Maven_for_Jenkins/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
