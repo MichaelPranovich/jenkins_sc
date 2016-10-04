@@ -119,16 +119,6 @@ THE SOFTWARE.
         <enabled>false</enabled>
       </snapshots>
     </repository>
-    <repository>
-      <id>repo1.jenkins-ci.org</id>
-      <url>http://localhost:8081/repository/Releases_Maven_for_Jenkins/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
   </repositories>
 
   <pluginRepositories>
