@@ -58,7 +58,7 @@ THE SOFTWARE.
     <connection>scm:git:git://github.com/MichaelPranovich/jenkins_sc.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/MichaelPranovich/jenkins_sc.git</developerConnection>
     <url>https://github.com/jenkinsci/jenkins</url>
-    <tag>HEAD</tag>
+    <tag>jenkins-2.25</tag>
   </scm>
 
   <distributionManagement>
