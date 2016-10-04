@@ -111,7 +111,7 @@ THE SOFTWARE.
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://localhost:8081/repository/Group/</url>
+      <url>http://localhost:8081/nexus/content/groups/Group/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -124,7 +124,7 @@ THE SOFTWARE.
   <pluginRepositories>
     <pluginRepository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://localhost:8081/repository/Group/</url>
+      <url>http://localhost:8081/nexus/content/groups/Group/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
