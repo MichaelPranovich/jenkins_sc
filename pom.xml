@@ -340,6 +340,10 @@ THE SOFTWARE.
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.7</version>
+          <configuration>
+            <repositoryId>nexus-snapshots</repositoryId>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
