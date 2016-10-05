@@ -342,7 +342,7 @@ THE SOFTWARE.
           <version>2.7</version>
           <configuration>
             <repositoryId>nexus-snapshots</repositoryId>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://10.0.0.4:8081/nexus/content/repositories/snapshots/</url>
           </configuration>
         </plugin>
         <plugin>
