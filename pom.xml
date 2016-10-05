@@ -304,12 +304,6 @@ THE SOFTWARE.
                 <replacement>-SNAPSHOT (${build.type}-${now})</replacement>
                 <failIfNoMatch>false</failIfNoMatch>
               </configuration>
-            </execution>
-            <execution>
-              <id>version-property</id>
-              <goals>
-                <goal>regex-property</goal>
-              </goals>
               <configuration>
                 <name>build.version</name>
                 <value>${project.version}</value>
