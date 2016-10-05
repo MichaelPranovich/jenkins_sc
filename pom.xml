@@ -293,24 +293,28 @@ THE SOFTWARE.
               </configuration>
             </execution>
             <execution>
-              <id>version-property</id>
+              <id>version-properties</id>
               <goals>
-                <goal>regex-property</goal>
+                <goal>regex-properties</goal>
               </goals>
               <configuration>
-                <name>build.version</name>
-                <value>${project.version}</value>
-                <regex>-SNAPSHOT</regex>
-                <replacement>-SNAPSHOT (${build.type}-${now})</replacement>
-                <failIfNoMatch>false</failIfNoMatch>
-              </configuration>
-              <configuration>
-                <name>build.version</name>
-                <value>${project.version}</value>
-                <regex>${project.version}</regex>
-                <replacement>${env.tc_build_number}</replacement>
-                <failIfNoMatch>false</failIfNoMatch>
-              </configuration>
+               <regexPropertySettings>
+                <regexPropertySetting>		      
+                 <name>build.version</name>
+                 <value>${project.version}</value>
+                 <regex>-SNAPSHOT</regex>
+                 <replacement>-SNAPSHOT (${build.type}-${now})</replacement>
+                 <failIfNoMatch>false</failIfNoMatch>
+		</regexPropertySetting>
+                <regexPropertySetting>
+                 <name>build.version</name>
+                 <value>${project.version}</value>
+                 <regex>${project.version}</regex>
+                 <replacement>${env.tc_build_number}</replacement>
+                 <failIfNoMatch>false</failIfNoMatch>
+                </regexPropertySetting>
+	       </regexPropertySettings>
+	     </configuration>
             </execution>
           </executions>
         </plugin>
