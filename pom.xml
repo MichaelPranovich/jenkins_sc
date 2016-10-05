@@ -64,7 +64,7 @@ THE SOFTWARE.
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+      <url>http://10.0.0.4:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
@@ -111,7 +111,7 @@ THE SOFTWARE.
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://localhost:8081/nexus/content/groups/Group/</url>
+      <url>http://10.0.0.4:8081/nexus/content/groups/Group/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -124,7 +124,7 @@ THE SOFTWARE.
   <pluginRepositories>
     <pluginRepository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://localhost:8081/nexus/content/groups/Group/</url>
+      <url>http://10.0.0.4:8081/nexus/content/groups/Group/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
