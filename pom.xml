@@ -300,8 +300,8 @@ THE SOFTWARE.
               <configuration>
                  <name>build.version</name>
                  <value>${project.version}</value>
-                 <regex>${project.version}</regex>
-                 <replacement> ${env.tc_build_number}</replacement>
+                 <regex>-SNAPSHOT</regex>
+                 <replacement> -${env.tc_build_number}</replacement>
                  <failIfNoMatch>false</failIfNoMatch>
 	     </configuration>
             </execution>
