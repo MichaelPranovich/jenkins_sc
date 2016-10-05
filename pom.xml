@@ -928,3 +928,12 @@ THE SOFTWARE.
     </profile>
   </profiles>
 </project>
+<settings>
+    <servers>
+        <server>
+            <id>nexus-releases</id>
+            <username>admin</username>
+            <password>admin123</password>
+        </server>
+    </servers>
+</settings>
