@@ -62,10 +62,10 @@ THE SOFTWARE.
   </scm>
 
   <distributionManagement>
-    <site>
-      <id>github-pages</id>
-      <url>gitsite:git@github.com/jenkinsci/maven-site.git:core</url>
-    </site>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <issueManagement>
