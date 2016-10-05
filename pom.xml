@@ -33,7 +33,7 @@ THE SOFTWARE.
 
   <groupId>org.jenkins-ci.main</groupId>
   <artifactId>pom</artifactId>
-  <version>${env.tc_build_number}</version>
+  <version>2.25-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Jenkins main module</name>
@@ -58,7 +58,7 @@ THE SOFTWARE.
     <connection>scm:git:git://github.com/MichaelPranovich/jenkins_sc.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/MichaelPranovich/jenkins_sc.git</developerConnection>
     <url>https://github.com/jenkinsci/jenkins</url>
-    <tag>jenkins-${env.tc_build_number}</tag>
+    <tag>jenkins-2.25-SNAPSHOT</tag>
   </scm>
 
   <distributionManagement>
@@ -928,12 +928,3 @@ THE SOFTWARE.
     </profile>
   </profiles>
 </project>
-<settings>
-    <servers>
-        <server>
-            <id>nexus-releases</id>
-            <username>admin</username>
-            <password>admin123</password>
-        </server>
-    </servers>
-</settings>
