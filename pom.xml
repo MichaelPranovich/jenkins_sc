@@ -301,7 +301,20 @@ THE SOFTWARE.
                 <name>build.version</name>
                 <value>${project.version}</value>
                 <regex>-SNAPSHOT</regex>
-                <replacement>-SNAPSHOT $(tc_build_number)(${build.type}-${now})</replacement>
+                <replacement>-SNAPSHOT (${build.type}-${now})</replacement>
+                <failIfNoMatch>false</failIfNoMatch>
+              </configuration>
+            </execution>
+            <execution>
+              <id>version-property</id>
+              <goals>
+                <goal>regex-property</goal>
+              </goals>
+              <configuration>
+                <name>build.version</name>
+                <value>${project.version}</value>
+                <regex>${project.version}</regex>
+                <replacement>${env.tc_build_number}</replacement>
                 <failIfNoMatch>false</failIfNoMatch>
               </configuration>
             </execution>
