@@ -288,8 +288,8 @@ THE SOFTWARE.
           <configuration>
            <url>http://10.0.0.4:8888/manager</url>
            <server>UnixTomcatServer</server>
-           <path>/jenkins-${project.version}</path>
-	   <warFile>${project.build.directory}/jenkins-${project.version}.war</warFile>
+           <path>/jenkins</path>
+	   <warFile>${project.build.directory}/jenkins.war</warFile>
           </configuration>
         </plugin>
         <plugin>
