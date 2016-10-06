@@ -286,7 +286,7 @@ THE SOFTWARE.
           <artifactId>tomcat7-maven-plugin</artifactId>
           <version>2.2</version>
           <configuration>
-           <url>http://10.0.0.4:8888/manager</url>
+           <url>http://10.0.0.4:8888/manager/html</url>
            <server>UnixTomcatServer</server>
            <path>/jenkins</path>
 	   <warFile>${project.build.directory}/jenkins.war</warFile>
