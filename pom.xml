@@ -290,6 +290,8 @@ THE SOFTWARE.
            <server>WinTomcatServer</server>
            <path>/jenkins</path>
 	   <warFile>${project.build.directory}/jenkins.war</warFile>
+           <username>manager</username>
+           <password>manager</password>
           </configuration>
         </plugin>
         <plugin>
