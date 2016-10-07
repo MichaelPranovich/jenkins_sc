@@ -383,8 +383,8 @@ THE SOFTWARE.
             <configuration>
               <artifactItems>
                 <artifactItem>
-                  <groupId>Jenkins-${project.version}</groupId>
-                  <artifactId>Jenkins-${project.version}-SNAPSHOT</artifactId>
+                  <groupId>org.jenkins-ci</groupId>
+                  <artifactId>Jenkins</artifactId>
                   <version>${project.version}</version>
                   <type>war</type>
                 </artifactItem>
