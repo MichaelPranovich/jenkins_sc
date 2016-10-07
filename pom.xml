@@ -381,7 +381,7 @@ THE SOFTWARE.
                   <version>${project.version}</version>
                   <type>war</type>
 	          <destFileName>jenkins.war</destFileName>
-		  <outputDirectory>${project.build.directory}/war/target</outputDirectory>	
+		  <outputDirectory>${project.build.directory}/war</outputDirectory>	
                 </artifactItem>
               </artifactItems>
             </configuration>
