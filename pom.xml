@@ -381,7 +381,7 @@ THE SOFTWARE.
                   <version>${project.version}</version>
                   <type>war</type>
 	          <destFileName>jenkins.war</destFileName>
-		  <outputDirectory>${project.build.directory}</outputDirectory>	
+		  <outputDirectory>${env.tc_build_dir}</outputDirectory>	
                 </artifactItem>
               </artifactItems>
             </configuration>
