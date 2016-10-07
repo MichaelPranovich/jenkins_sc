@@ -374,10 +374,10 @@ THE SOFTWARE.
           <version>2.8</version>
 	  <executions>
            <execution>
-            <id>copy</id>
+            <id>predeploy-copy</id>
 	    <phase>predeploy-copy</phase>
               <goals>
-                <goal>copy</goal>
+                <goal>predeploy-copy</goal>
               </goals>
             <configuration>
               <artifactItems>
