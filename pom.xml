@@ -385,7 +385,7 @@ THE SOFTWARE.
                 <artifactItem>
                   <groupId>${project.groupId}</groupId>
                   <artifactId>${project.ArtifactId}</artifactId>
-                  <version>@{project.version}</version>
+                  <version>${project.version}</version>
                   <type>war</type>
                 </artifactItem>
               </artifactItems>
@@ -668,7 +668,7 @@ THE SOFTWARE.
           <goals>-DskipTests -Danimal.sniffer.skip=false javadoc:javadoc deploy javadoc:aggregate</goals>
           <pushChanges>false</pushChanges>
           <localCheckout>true</localCheckout>
-          <tagNameFormat>jenkins-@{project.version}</tagNameFormat>
+          <tagNameFormat>jenkins-${project.version}</tagNameFormat>
         </configuration>
       </plugin>
       <plugin>
