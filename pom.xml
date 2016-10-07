@@ -373,6 +373,8 @@ THE SOFTWARE.
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
           <version>2.10</version>
+	   <executions>
+	    <execution>
             <id>copy-installed</id>
             <phase>install</phase>
             <goals>
@@ -391,7 +393,8 @@ THE SOFTWARE.
               <overWriteReleases>false</overWriteReleases>
               <overWriteSnapshots>true</overWriteSnapshots>
             </configuration>
-		
+	    </execution>
+	   </executions>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
