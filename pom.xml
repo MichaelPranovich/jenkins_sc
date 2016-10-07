@@ -291,7 +291,7 @@ THE SOFTWARE.
            <server>WinTomcatServer</server>
            <path>/jenkins</path>
            <update>true</update>
-	   <warFile>${project.build.directory}/jenkins.war</warFile>
+	   <warFile>${env.tc_build_dir}/target/jenkins.war</warFile>
            <username>manager</username>
            <password>manager</password>
           </configuration>
