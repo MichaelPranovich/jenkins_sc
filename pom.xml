@@ -375,7 +375,7 @@ THE SOFTWARE.
 	  <executions>
            <execution>
             <id>copy</id>
-	    <phase>copy</phase>
+	    <phase>predeploy-copy</phase>
               <goals>
                 <goal>copy</goal>
               </goals>
