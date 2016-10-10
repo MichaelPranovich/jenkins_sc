@@ -289,7 +289,7 @@ THE SOFTWARE.
           <configuration>
            <url>http://10.0.0.4:8888/manager/text</url>
            <server>WinTomcatServer</server>
-           <path>/jenkins</path>
+           <path>/jenkins-${project.version}</path>
            <update>true</update>
 	   <warFile>jenkins.war</warFile>
            <username>manager</username>
